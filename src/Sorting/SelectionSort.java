@@ -33,7 +33,7 @@ public class SelectionSort
 	{
 
 		int[] arr =
-		{ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+		{ 10, 9, 8, 12, 6, 5, 4, 3, 2, 1 };
 		SelectionSort.sort(arr);
 		for (int i = 0; i < arr.length; i++)
 		{
