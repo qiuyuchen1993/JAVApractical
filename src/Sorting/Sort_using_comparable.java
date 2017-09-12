@@ -1,8 +1,8 @@
 package Sorting;
 
-public class Sort_useing_comparable
+public class Sort_using_comparable
 {
-	private Sort_useing_comparable()
+	private Sort_using_comparable()
 	{
 	}
 
@@ -34,7 +34,7 @@ public class Sort_useing_comparable
 		// test integer
 		Integer[] a =
 		{ 10, 9, 8, 12, 6, 5, 4, 3, 2, 1 };
-		Sort_useing_comparable.sort(a);
+		Sort_using_comparable.sort(a);
 		for (int i = 0; i < a.length; i++)
 		{
 			System.out.print(a[i]);
@@ -44,7 +44,7 @@ public class Sort_useing_comparable
 		// test double
 		Double[] b =
 		{ 4.4, 3.3, 2.2, 1.1 };
-		Sort_useing_comparable.sort(b);
+		Sort_using_comparable.sort(b);
 		for (int i = 0; i < b.length; i++)
 		{
 			System.out.print(b[i]);
@@ -54,13 +54,21 @@ public class Sort_useing_comparable
 		// test string
 		String[] c =
 		{ "C", "B", "W" };
-		Sort_useing_comparable.sort(c);
+		Sort_using_comparable.sort(c);
 		for (int i = 0; i < c.length; i++)
 		{
 			System.out.print(c[i]);
 			System.out.print(' ');
 		}
 		System.out.println();
+
+		// test men
+		men[] d = new men[2];
+		d[0] = new men("Ann", 13);
+		d[1] = new men("Bob", 24);
+		Sort_using_comparable.sort(d);
+		for (int i = 0; i < d.length; i++)
+			System.out.println(d[i]);
 	}
 
 }
