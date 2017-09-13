@@ -6,6 +6,7 @@ public class SortTestHelper
 	{
 	}
 
+	// generate numbers to be tested
 	public static Integer[] generateRandomArray(int n, int rangeL, int rangeR)
 	{
 		assert rangeL <= rangeR;
@@ -17,6 +18,7 @@ public class SortTestHelper
 		return arr;
 	}
 
+	// print array
 	public static void printArray(Object arr[])
 	{
 
