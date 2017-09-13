@@ -63,9 +63,10 @@ public class Sort_using_comparable
 		System.out.println();
 
 		// test men
-		men[] d = new men[2];
+		men[] d = new men[3];
 		d[0] = new men("Ann", 13);
 		d[1] = new men("Bob", 24);
+		d[2] = new men("Joe", 13);
 		Sort_using_comparable.sort(d);
 		for (int i = 0; i < d.length; i++)
 			System.out.println(d[i]);
