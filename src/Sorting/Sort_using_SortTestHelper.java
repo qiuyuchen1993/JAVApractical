@@ -6,7 +6,7 @@ public class Sort_using_SortTestHelper
 	{
 	}
 
-	public static <T extends Comparable<T>> void sort(T[] arr)
+	public static void sort(Comparable[] arr)
 	{
 		int n = arr.length;
 		for (int i = 0; i < n; i++)
