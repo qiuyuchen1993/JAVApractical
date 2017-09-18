@@ -21,7 +21,7 @@ public class SavingsAccount extends Account
 		if (balance < ammount)
 		{
 			System.out.println("Your current balance is" + balance + " You have attempted to withdraw " + ammount
-					+ ".And this transaction cannot be completed. Your balance is unchanged.");
+					+ "This transaction cannot be completed. Your balance is unchanged.");
 		} else
 		{
 			super.withdraw(ammount);
